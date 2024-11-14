@@ -1,6 +1,9 @@
 *{
     scroll-behavior: smooth;
 }
+header{
+    background-color: white;
+}
 body{
     box-sizing: border-box;
     background-color: #E0E8E6;
@@ -9,12 +12,22 @@ body{
     display: block;
     margin: 0 auto;
 }
+.side{
+    border-radius: 0 90px 0 0;
+}
+.button-grp>button{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    
+}
 .card{
-    height: 25rem;
+    height: 27rem;
     overflow: hidden;
-    border-radius: 0px 120px;
+    border-radius: 0px 80px;
 }
 .card-img-top>img{
-    width: ;
-    border-radius: 0px 120px 0px 0px;
+    width: auto;
+    height: 220px;
+    border-radius: 0px 80px 0px 0px;
 }
